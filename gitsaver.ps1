@@ -1,17 +1,17 @@
-# Caminho do repositório Git (opcional, se o script for para ser rodado dentro de um repositório Git já inicializado)
-$repoPath = "C:\caminho\para\seu\repositorio"
+# Caminho do repositï¿½rio Git (opcional, se o script for para ser rodado dentro de um repositï¿½rio Git jï¿½ inicializado)
+#$repoPath = "C:\caminho\para\seu\repositorio"
 
-# Mudar para o diretório do repositório (caso o script esteja sendo rodado fora)
-Set-Location -Path $repoPath
+# Mudar para o diretï¿½rio do repositï¿½rio (caso o script esteja sendo rodado fora)
+#Set-Location -Path $repoPath
 
 # Adicionar todos os arquivos modificados
 git add .
 
-# Fazer o commit com uma mensagem padrão
-$commitMessage = "Commit automático com PowerShell"
+# Fazer o commit com uma mensagem padrï¿½o
+$commitMessage = "Commit automï¿½tico com PowerShell"
 git commit -m $commitMessage
 
-# Enviar as alterações para o repositório remoto
+# Enviar as alteraï¿½ï¿½es para o repositï¿½rio remoto
 git push
 
-Write-Host "Alterações enviadas com sucesso!"
+Write-Host "Alteraï¿½ï¿½es enviadas com sucesso!"
