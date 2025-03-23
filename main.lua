@@ -226,7 +226,7 @@ end)
 
 local config = {
     ringIdOne = 32664,
-    hppercentChange = 60,
+    hppercentChange = 70,
     ringIdTwo = 3051
 }
 UI.Separator()
